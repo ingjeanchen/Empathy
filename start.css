@@ -1,0 +1,147 @@
+div {
+    background-color: #0600020a;
+}
+
+.choose-deck {
+    display: none;
+    height: 100vh;
+}
+
+.start-pg {
+    display: flex;
+}
+
+
+
+/* CSS */
+.button-51 {
+  background-color: transparent;
+  
+  box-sizing: border-box;
+  color: #fcfdfe;
+  font-family: "Avenir Next LT W01 Bold",sans-serif;
+  font-size: 30px;
+  width: 250px;
+  font-weight: 300;
+  height: 350px;
+  padding: 70px 69px;
+  position: relative;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.button-51.family-deck {
+    border: 3px solid #126609;
+}
+.button-51.friend-deck {
+    border: 3px solid #9f6707;
+}
+.button-51.class-deck {
+    border: 3px solid #266DB6;
+}
+
+.button-51:hover,
+.button-51:active {
+  outline: 0;
+}
+
+.button-51:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.button-51:before {
+  content: "";
+  height: calc(100% + 3px);
+  position: absolute;
+  right: -7px;
+  top: -9px;
+  transition: background-color 300ms ease-in;
+  width: 100%;
+  z-index: -1;
+}
+
+
+.button-51.family-deck:before {
+    background-image: url("img/family.png");
+    transition: opacity 0.7s;
+}
+.button-51.friend-deck:before {
+    background-image: url("img/friend.png");
+    transition: opacity 0.7s;
+}
+.button-51.class-deck:before {
+    background-image: url("img/classmate.png");
+    transition: opacity 0.7s;
+}
+
+
+.button-51.family-deck:hover:before {
+    opacity: 0.6;
+}
+.button-51.friend-deck:hover:before {
+    opacity: 0.6;
+}
+.button-51.class-deck:hover:before {
+    opacity: 0.6;
+}
+
+@media (min-width: 768px) {
+  .button-51 {
+    padding: 16px 32px;
+  }
+}
+
+.family_card {
+    display: none;
+    position: fixed;
+    top: 20vh;
+    left: 38vw;
+    width: 350px;
+    height: 500px;
+    background-image: url("img/family.png");
+}
+.class_card {
+    display: none;
+    position: fixed;
+    top: 20vh;
+    left: 38vw;
+    width: 350px;
+    height: 500px;
+    background-image: url("img/classmate.png");
+}
+.friend_card {
+    display: none;
+    position: fixed;
+    top: 20vh;
+    left: 38vw;
+    width: 350px;
+    height: 500px;
+    background-image: url("img/friend.png");
+}
+
+
+.card_text {
+    
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    height: 480px;
+    font-size: 25px;
+}
+
+.fam_text {
+    background-color: rgb(238, 250, 233);
+}
+.class_text {
+    background-color: #eaedf0;
+}
+.friend_text {
+    background-color: rgba(249, 242, 220, 0.958);
+}

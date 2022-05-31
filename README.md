@@ -1,4 +1,7 @@
 # Feelinks 抽情境牌
+## 網頁連結 (請用電腦打開，目前沒有寫行動版)
+https://ingjeanchen.github.io/Feelinks/start.html
+
 ### 點按下方的開始鍵
 ![start_screen](https://user-images.githubusercontent.com/80530958/171156627-5346dbf3-9984-4a0f-92c5-93cfd5346e70.png)
 
@@ -8,4 +11,4 @@
 ### 抽好牌後若要將跳出的牌關閉，請點擊牌
 ![0531](https://user-images.githubusercontent.com/80530958/171158263-65c90e98-4d93-4403-9eab-b52aaec03fe6.png)
 
-! 若要重來請重整網頁!
+## 若要重來請重整網頁!

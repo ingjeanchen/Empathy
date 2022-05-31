@@ -7,3 +7,5 @@
 
 ### 抽好牌後若要將跳出的牌關閉，請點擊牌
 ![0531](https://user-images.githubusercontent.com/80530958/171158263-65c90e98-4d93-4403-9eab-b52aaec03fe6.png)
+
+! 若要重來請重整網頁!

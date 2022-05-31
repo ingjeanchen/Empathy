@@ -1,6 +1,6 @@
 # 同理同感 抽情境牌
 ## 網頁連結 (請用電腦打開，目前沒有寫行動版)
-https://ingjeanchen.github.io/Feelinks/start.html
+https://ingjeanchen.github.io/Empathy/start.html
 
 ## 使用說明
 ### 點按下方的開始鍵

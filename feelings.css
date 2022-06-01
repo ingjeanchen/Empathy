@@ -1,0 +1,257 @@
+body {
+    background-color: #e1e5f2;
+}
+
+.deepblue {
+    color:#2a4465;
+}
+.row-cols-3{
+    background-color: #4e6f9a;
+    margin-top: 40px;
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.num {
+    color: #f0dade;
+    height: 100px;
+    width: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.positive {
+    min-height: 180px;
+    border: 5px solid #e1e5f2;
+}
+.neutral {
+    min-height: 180px;
+    border: 5px solid #e1e5f2;
+}
+.negative {
+    min-height: 180px;
+    border: 5px solid #e1e5f2;
+}
+.situation {
+    min-height: 150px;
+    border: 5px solid #e1e5f2;
+    background-color: #e1e5f2;
+    
+}
+
+
+.choose-deck {
+    padding-bottom: 50px;
+    padding-top: 25px;
+    margin-left: 3px;
+    margin-top: 20px;
+    border: 2px solid black;
+}
+
+.emotion_board {
+    padding-bottom: 50px;
+    padding-top: 25px;
+    max-width: 10x;
+    margin-top: 20px;
+    min-height: 680px;
+    border: 2px solid black;
+}
+
+/* CSS */
+.button-51 {
+  background-color: transparent;
+  box-sizing: border-box;
+  color: #fcfdfe;
+  font-family: "Avenir Next LT W01 Bold",sans-serif;
+  font-size: 30px;
+  width: 125px;
+  font-weight: 300;
+  height: 160px;
+  padding: 70px 69px;
+  position: relative;
+  margin-top: 20px;
+  margin-left: 65px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.button-51.family-deck {
+    border: 3px solid #126609;
+}
+.button-51.friend-deck {
+    border: 3px solid #9f6707;
+}
+.button-51.class-deck {
+    border: 3px solid #266DB6;
+}
+
+.button-51:hover,
+.button-51:active {
+  outline: 0;
+}
+
+.button-51:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.button-51:before {
+  content: "";
+  height: calc(100% + 3px);
+  position: absolute;
+  right: -7px;
+  top: -9px;
+  transition: background-color 300ms ease-in;
+  width: 100%;
+  z-index: -1;
+}
+
+
+.button-51.family-deck:before {
+    background-image: url("img/family.png");
+    transition: opacity 0.7s;
+}
+.button-51.friend-deck:before {
+    background-image: url("img/friend.png");
+    transition: opacity 0.7s;
+}
+.button-51.class-deck:before {
+    background-image: url("img/classmate.png");
+    transition: opacity 0.7s;
+}
+.button-51.emotion-deck:before {
+    background-image: url("img/emotion.png");
+    transition: opacity 0.7s;
+}
+
+
+
+.button-51.family-deck:hover:before {
+    opacity: 0.6;
+}
+.button-51.friend-deck:hover:before {
+    opacity: 0.6;
+}
+.button-51.class-deck:hover:before {
+    opacity: 0.6;
+}
+.button-51.emotion-deck:hover:before {
+    opacity: 0.6;
+}
+
+@media (min-width: 768px) {
+  .button-51 {
+    padding: 16px 32px;
+  }
+}
+
+.family_card {
+    display: none;
+    position: fixed;
+    top: 10vh;
+    left: 38vw;
+    width: 350px;
+    height: 500px;
+    background-image: url("img/family.png");
+}
+.class_card {
+    display: none;
+    position: fixed;
+    top: 10vh;
+    left: 38vw;
+    width: 350px;
+    height: 500px;
+    background-image: url("img/classmate.png");
+}
+.friend_card {
+    display: none;
+    position: fixed;
+    top: 10vh;
+    left: 38vw;
+    width: 350px;
+    height: 500px;
+    background-image: url("img/friend.png");
+}
+.emotion_card {
+    display: none;
+    position: fixed;
+    top: 10vh;
+    left: 38vw;
+    width: 350px;
+    height: 500px;
+    background-image: url("img/emotion.png");
+}
+.wheel_show {
+    position: fixed;
+    top: 10vh;
+    left: 22vw;
+    max-width: 700px;
+    height: 500px;
+}
+
+.card_text {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    height: 480px;
+    font-size: 25px;
+}
+
+.fam_text {
+    background-color: rgb(238, 250, 233);
+}
+.class_text {
+    background-color: #eaedf0;
+}
+.friend_text {
+    background-color: rgba(249, 242, 220, 0.958);
+}
+
+.re_or_yes {
+    display: none;
+    background-color: #3951a2;
+    border: 2px solid yellow;
+}
+#again_btn {
+    position: fixed;
+    top: 38vw;
+    left: 42vw;
+    width: 50px;
+    height: 50px;
+
+}
+
+#yes_btn {
+    position: fixed;
+    top: 38vw;
+    left: 54vw;
+    width: 50px;
+    height: 50px;
+}
+
+.wheel_icon{
+
+    width: 150px;
+    height: 150px;
+}
+.wheel_btn {
+    background-color: transparent;
+    border: none;
+}
+
+#feelings_wheel_img {
+    display: none;
+}

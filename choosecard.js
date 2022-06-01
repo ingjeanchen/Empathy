@@ -10,11 +10,9 @@ var friend_card = document.querySelector('.friend_card');
 var fam_text = document.querySelector('.fam_text');
 var class_text = document.querySelector('.class_text');
 var friend_text = document.querySelector('.friend_text');
-var re_or_yes = document.querySelector('re_or_yes');
+
 var situation = document.querySelector('.situation');
-var wheel_btn = document.querySelector('.wheel_btn');
-var wheel_show = document.querySelector('.wheel_show');
-var feelings_wheel_img = document.getElementById('feelings_wheel_img');
+
 var fam_index = 0;
 var class_index = 0;
 var friend_index = 0;
@@ -39,16 +37,7 @@ shuffle(family_arr);
 shuffle(class_arr);
 shuffle(friend_arr);
 
-/*
-wheel_btn.onclick = function() {
-    choose_deck.style.opacity = 0.3;
-    gmboard.style.opacity = 0.3;
-    emotion_board.style.opacity = 0.3;
-    
-    feelings_wheel_img.style = "display: flex;";
-}
 
-*/
 
 family_deck.onclick = function() {
     choose_deck.style.opacity = 0.3;
@@ -118,13 +107,6 @@ fam_card.addEventListener('click', function (e) {
     }
 );
 
-feelings_wheel_img.addEventListener('click', function (e) {
-
-    feelings_wheel_img.sytle = "display: none !important;";
-    choose_deck.style.opacity = 1;
-    emotion_board.style.opacity = 1;
-    gmboard.style.opacity = 1;
-});
 
 function shuffle(arr) {
     for (let i = arr.length - 1; i > 0; i--) {

@@ -39,6 +39,7 @@ shuffle(family_arr);
 shuffle(class_arr);
 shuffle(friend_arr);
 
+/*
 wheel_btn.onclick = function() {
     choose_deck.style.opacity = 0.3;
     gmboard.style.opacity = 0.3;
@@ -47,7 +48,7 @@ wheel_btn.onclick = function() {
     feelings_wheel_img.style = "display: flex;";
 }
 
-
+*/
 
 family_deck.onclick = function() {
     choose_deck.style.opacity = 0.3;
